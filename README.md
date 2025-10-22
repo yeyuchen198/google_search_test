@@ -29,6 +29,15 @@ Mozilla/5.0 (iPhone; CPU iPhone OS 18_5 like Mac OS X) AppleWebKit/605.1.15 (KHT
 
 
 
+-----------
+拦截响应：
+18:22:51.807 request url https://www.google.com/search?q=toys
+18:22:51.807 等待3秒后返回响应
+18:22:51.807 返回响应
+
+
+3秒种后再返回响应，好像每次就报429，难道是返回html源码后需要立即执行生成cookie参数？不然生成的值就无效？
+
 
 
 
